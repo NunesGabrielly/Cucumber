@@ -6,13 +6,6 @@
   <artifactId>QualidadeTesteSoftware</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 <dependencies>
-<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
-<dependency>
-    <groupId>info.cukes</groupId>
-    <artifactId>cucumber-junit</artifactId>
-    <version>1.2.5</version>
-    <scope>test</scope>
-</dependency>
 <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
 <dependency>
     <groupId>info.cukes</groupId>
