@@ -6,11 +6,10 @@
 para que eu não tenha que esperar numa fila de banco.
 # Scenario: 
   Cliente especial com saldo negativo
-# Given
-  um cliente especial com saldo atual de -200 reais
-# When 
+* Given: um cliente especial com saldo atual de -200 reais
+When 
   for solicitado um saque no valor de 100 reais
-# Then 
+Then 
   deve efetuar o saque e atualizar o saldo da conta para -300 reais
 
 # Scenario: 
